@@ -2,9 +2,9 @@
 ![](https://github.com/ibukisaar/MD5Gif/raw/master/imgs/md5.gif)
 
 # 使用说明
-1. 需要用到fastcoll，可从[HashClash](https://www.win.tue.nl/hashclash/)下载。
+1. 需要用到`fastcoll`，可从[HashClash](https://www.win.tue.nl/hashclash/)下载。
 
-2. 配置Program类里开头的常量，编译运行即可。
+2. 配置`Program`类里开头的常量，编译运行即可。
 ```csharp
 class Program {
     /// <summary>
@@ -26,3 +26,5 @@ class Program {
     
     ...
 ```
+
+3. 输出的GIF文件位于`WorkspaceDir`指定目录下的`md5.gif`。
